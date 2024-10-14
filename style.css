@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.fan:hover{
+    transition: 1s linear 1s ;
+    transform: rotate(360deg);
+    
+}
+
+.fan {
+
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: blue;
+    margin: 400px;
+}
+/* 
+.dot{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+} */
+
+
+.fan1{ 
+top: 500px;
+    position: absolute;
+    height: 200px;
+    width: 50px;
+    background-color: blue;
+top: 90px;
+left: 20px;
+}
+
+.fan2{ 
+   
+        position: absolute;
+        height: 200px;
+        width: 50px;
+        background-color:blue;
+    left: 170px;
+ 
+bottom: -48%;
+    transform: rotate(90deg);
+    }
+
+    .fan4{ 
+   
+        position: absolute;
+        height: 200px;
+        width: 50px;
+        background-color:blue;
+right: 170px;
+ 
+bottom: -48%;
+    transform: rotate(90deg);
+    }
+
+    
+.fan5{ bottom: 92px;
+    position: absolute;
+    height: 200px;
+    width: 50px;
+    background-color:blue;
+    left: 20px;
+    transform: rotate(0deg);
+}
+    
